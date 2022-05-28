@@ -1,6 +1,10 @@
+<script>
+    import t from "./themeScheme";
+</script>
+
 <div class="container">
-    <h1>TSUKIROKU</h1>
-    <p>student</p>
+    <p class="title" style="color: {t.default}">tsukiroku</p>
+    <p class="description" style="color: {t.default}">student asdldsflksdflksdflk</p>
 </div>
 
 <style>
@@ -11,15 +15,15 @@
         margin: 0 auto;
     }
 
-    div.container > h1 {
-        color: #ff3e00;
+    div.container > .title {
+        text-transform: uppercase;
         font-size: 70px;
         font-weight: 100;
         animation-name: bounce;
         animation-duration: 1s;
     }
 
-    div.container > p {
+    div.container > .description {  
         font-size: 25px;
     }
 
@@ -30,12 +34,12 @@
     }
 
     @media (max-width: 640px) {
-        div.container > h1 {
-            font-size: 10vh;
+        div.container > .title {
+            font-size: 40px;
         }
 
-        div.container > p {
-            font-size: 5vh;
+        div.container > .description {
+            font-size: 25px;
         }
     }
 
