@@ -1,32 +1,41 @@
-<script>
+<script lang="ts">
     import theme from './themeScheme';
+    export const id = '#title';
 </script>
 
-<div class="container">
+<div class="container" {id}>
     <p class="title" style="color: {theme.default}">tsukiroku</p>
-    <p class="description" style="color: {theme.description}">
-        Student developers in South Korea.
-    </p>
+    <p class="description">Student developers in South Korea.</p>
 </div>
 
 <style>
     div.container {
         text-align: center;
-        padding: 1em;
         max-width: 240px;
-        margin: 0 auto;
+        margin: auto;
+        position: relative;
+        top: 20%;
     }
 
     div.container > .title {
         text-transform: uppercase;
         font-size: 70px;
         font-weight: 100;
-        animation-name: bounce;
-        animation-duration: 1s;
+        animation: bounce 1s 0.2s;
     }
 
     div.container > .description {
         font-size: 25px;
+        background-image: linear-gradient(
+            90deg,
+            rgba(255, 0, 0, 1) 0%,
+            rgba(155, 0, 247, 1) 100%,
+            rgba(70, 0, 255, 1) 100%
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent;
     }
 
     @media (min-width: 640px) {
@@ -41,7 +50,7 @@
         }
 
         div.container > .description {
-            font-size: 25px;
+            font-size: 20px;
         }
     }
 
