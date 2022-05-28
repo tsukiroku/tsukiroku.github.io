@@ -1,8 +1,9 @@
 // @ts-ignore
-import App from './App.svelte';
+import App from './app.svelte';
+import themeScheme from './themeScheme';
 
-const app = new App({
+document.body.style.backgroundColor = themeScheme.background;
+
+export default new App({
     target: document.body,
 });
-
-export default app;
