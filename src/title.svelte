@@ -1,10 +1,12 @@
 <script>
-    import t from "./themeScheme";
+    import t from './themeScheme';
 </script>
 
 <div class="container">
     <p class="title" style="color: {t.default}">tsukiroku</p>
-    <p class="description" style="color: {t.default}">student asdldsflksdflksdflk</p>
+    <p class="description" style="color: {t.default}">
+        student asdldsflksdflksdflk
+    </p>
 </div>
 
 <style>
@@ -23,7 +25,7 @@
         animation-duration: 1s;
     }
 
-    div.container > .description {  
+    div.container > .description {
         font-size: 25px;
     }
 
