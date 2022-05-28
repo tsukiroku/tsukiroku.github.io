@@ -1,11 +1,11 @@
 <script>
-    import t from './themeScheme';
+    import theme from './themeScheme';
 </script>
 
 <div class="container">
-    <p class="title" style="color: {t.default}">tsukiroku</p>
-    <p class="description" style="color: {t.default}">
-        student asdldsflksdflksdflk
+    <p class="title" style="color: {theme.default}">tsukiroku</p>
+    <p class="description" style="color: {theme.description}">
+        Student developers in South Korea.
     </p>
 </div>
 
