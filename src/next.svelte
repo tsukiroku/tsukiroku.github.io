@@ -2,7 +2,13 @@
     import theme from './themeScheme';
 </script>
 
-<p class="next" style="color: {theme.nextText}">Projects -></p>
+<p
+    class="next"
+    style="color: {theme.nextText}"
+    on:click={() => (location.href = "https://tsukiroku.github.io")}
+>
+    Projects ->
+</p>
 
 <style>
     p.next {
@@ -12,5 +18,6 @@
         padding: 15px 35px;
         font-size: 20px;
         font-family: 'Fira Code', sans-serif;
+        cursor: pointer;
     }
 </style>
