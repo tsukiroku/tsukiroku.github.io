@@ -27,6 +27,30 @@
                 -ms-user-select: none;
                 scroll-behavior: smooth;
             }
+
+            @keyframes shake {
+                0% {
+                    transform: translateX(0);
+                }
+                6.5% {
+                    transform: translateX(-3px);
+                }
+                18.5% {
+                    transform: translateX(2px);
+                }
+                31.5% {
+                    transform: translateX(-1px);
+                }
+                43.5% {
+                    transform: translateX(1px);
+                }
+                50% {
+                    transform: translateX(0);
+                }
+                100% {
+                    transform: none;
+                }
+            }
         </style>
     </head>
 
