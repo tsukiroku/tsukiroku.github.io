@@ -2,6 +2,13 @@
     import theme from '../themeScheme';
     import Project from './components/project.svelte';
     import { github } from '../main';
+
+    const gotoSocials = () => {
+        location.href = '#socials';
+        (
+            document.getElementsByClassName('goto-socials')[0] as HTMLElement
+        ).style.animationPlayState = 'paused';
+    };
 </script>
 
 <div class="project">
@@ -31,6 +38,9 @@
         url={`${github}tsukiroku.github.io`}
     />
 </div>
+<p class="goto-socials" style="color: {theme.nextText}" on:click={gotoSocials}>
+    socials
+</p>
 
 <style>
     .project {
@@ -42,8 +52,18 @@
 
     .project > .title {
         font-size: 40px;
-        font-family: 'Fira Code', sans-serif;
         font-weight: bold;
+    }
+
+    p.goto-socials {
+        text-align: center;
+        max-width: 240px;
+        margin: auto;
+        position: relative;
+        top: 115%;
+        font-size: 20px;
+        cursor: pointer;
+        animation: shake 1s infinite both ease-in-out;
     }
 
     @media (max-width: 640px) {
@@ -57,7 +77,11 @@
 
         .project > .title {
             font-size: 30px;
-            font-family: 'Fira Code', sans-serif;
+        }
+
+        p.goto-socials {
+            top: 25%;
+            font-size: 15px;
         }
     }
 </style>
