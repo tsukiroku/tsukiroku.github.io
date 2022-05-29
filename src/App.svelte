@@ -1,6 +1,6 @@
 <script lang="ts">
-    import Title from './title.svelte';
-    import Next from './next.svelte';
+    import Title from './components/title.svelte';
+    import Next from './components/github.svelte';
 </script>
 
 <Title />
