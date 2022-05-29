@@ -1,11 +1,12 @@
 <script lang="ts">
     import theme from '../themeScheme';
+    import { github } from '../main';
 </script>
 
 <p
     class="next"
     style="color: {theme.nextText}"
-    on:click={() => (location.href = 'https://github.com/tsukiroku')}
+    on:click={() => (location.href = github)}
 >
     Github ->
 </p>
