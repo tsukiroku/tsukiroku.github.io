@@ -15,7 +15,7 @@
 
 <p
     class="github"
-    style="color: {theme.nextText}"
+    style="color: {theme.nextText};"
     on:click={() => (location.href = github)}
     on:focus={over}
 >
@@ -25,16 +25,15 @@
 <style>
     p.github {
         position: fixed;
-        bottom: 0;
+        top: 0;
         right: 0;
         padding: 15px 35px;
         font-size: 20px;
-        font-family: 'Fira Code', sans-serif;
         cursor: pointer;
-        animation: shake 1s infinite both ease-in-out;
+        animation: shake_w 1s infinite both ease-in-out;
     }
 
-    @keyframes shake {
+    @keyframes shake_w {
         0% {
             transform: translateX(0);
         }
