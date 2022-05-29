@@ -6,6 +6,8 @@ export default {
         nextText: '#4a5ef7',
         projectName: '#121212',
         projectDescription: '#303030',
+        socialGithub: '#2b2b2b',
+        socialTwitter: '#0081bd',
     },
     dark: {
         background: '#151515',
@@ -14,5 +16,7 @@ export default {
         nextText: '#fad20c',
         projectName: '#e8e8e8',
         projectDescription: '#c9c9c9',
+        socialGithub: '#cccccc',
+        socialTwitter: '#00aeff',
     },
 }[window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'];
