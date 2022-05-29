@@ -9,6 +9,13 @@
             setTimeout(() => (element.style.animationName = ''), 0)
         );
     };
+
+    const gotoProjects = () => {
+        location.href = '#projects';
+        (
+            document.getElementsByClassName('goto-project')[0] as HTMLElement
+        ).style.animationPlayState = 'paused';
+    };
 </script>
 
 <div class="container" {id}>
@@ -21,6 +28,13 @@
         tsukiroku
     </p>
     <p class="description">Student developers in South Korea.</p>
+    <p
+        class="goto-project"
+        style="color: {theme.nextText}"
+        on:click={gotoProjects}
+    >
+        projects
+    </p>
 </div>
 
 <style>
@@ -53,6 +67,12 @@
         color: transparent;
     }
 
+    div.container > .goto-project {
+        font-size: 20px;
+        cursor: pointer;
+        animation: shake 1s infinite both ease-in-out;
+    }
+
     @media (min-width: 640px) {
         div.container {
             max-width: none;
@@ -66,6 +86,10 @@
 
         div.container > .description {
             font-size: 20px;
+        }
+
+        div.container > .goto-project {
+            font-size: 15px;
         }
     }
 
@@ -84,6 +108,30 @@
 
         60% {
             transform: translateY(-15px);
+        }
+    }
+
+    @keyframes shake {
+        0% {
+            transform: translateX(0);
+        }
+        6.5% {
+            transform: translateX(-6px) rotate(-6deg);
+        }
+        18.5% {
+            transform: translateX(5px) rotate(4deg);
+        }
+        31.5% {
+            transform: translateX(-3px) rotate(-2deg);
+        }
+        43.5% {
+            transform: translateX(2px) rotate(1deg);
+        }
+        50% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: none;
         }
     }
 </style>
