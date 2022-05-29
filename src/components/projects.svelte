@@ -1,9 +1,35 @@
 <script lang="ts">
     import theme from '../themeScheme';
+    import Project from './components/project.svelte';
+    import { github } from '../main';
 </script>
 
 <div class="project">
     <p class="title" style="color: {theme.default}" id="projects">Projects</p>
+
+    <Project
+        name="type"
+        description="Type level programming."
+        url={`${github}type`}
+    />
+
+    <Project
+        name="gist"
+        description="Asynchronous gist API wrapper."
+        url={`${github}gist`}
+    />
+
+    <Project
+        name="twitter-readme-profile"
+        description="Your twitter profile in README."
+        url={`${github}twitter-readme-profile`}
+    />
+
+    <Project
+        name="tsukiroku.github.io"
+        description="Personal website."
+        url={`${github}tsukiroku.github.io`}
+    />
 </div>
 
 <style>
