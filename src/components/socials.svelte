@@ -6,15 +6,16 @@
 
 <div class="socials">
     <p class="title" style="color: {theme.default}" id="socials">Socials</p>
-    <Social
-        name="Github"
-        url={`https://github.com/tsukiroku`}
-        color={theme.socialGithub}
-    />
+    <Social name="Github" url={github} color={theme.socialGithub} />
     <Social
         name="Twitter"
         url={`https://twitter.com/tsukiroku_t`}
         color={theme.socialTwitter}
+    />
+    <Social
+        name="Mail"
+        url={`mailto:tsukiroku@yahoo.com`}
+        color={theme.socialMail}
     />
 </div>
 
