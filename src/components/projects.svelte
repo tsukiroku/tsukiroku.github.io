@@ -37,6 +37,12 @@
         description="Personal website."
         url={`${github}tsukiroku.github.io`}
     />
+
+    <Project
+        name="discord-interaction-template"
+        description="Discord interaction template."
+        url={`${github}discord-interaction-template`}
+    />
 </div>
 <p class="goto-socials" style="color: {theme.nextText}" on:click={gotoSocials}>
     socials
