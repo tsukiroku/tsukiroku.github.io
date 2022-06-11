@@ -13,6 +13,11 @@
         color={theme.socialTwitter}
     />
     <Social
+        name="YouTube"
+        url={`https://www.youtube.com/channel/UCD6IAnWoshkwFcChabKD8gw`}
+        color={theme.socialMail}
+    />
+    <Social
         name="Mail"
         url={`mailto:tsukiroku@yahoo.com`}
         color={theme.socialMail}
