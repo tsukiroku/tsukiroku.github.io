@@ -23,13 +23,13 @@
     <Project
         name="gist"
         description="Asynchronous gist API wrapper."
-        url={`${github}gist`}
+        url={`https://github.com/recalculated/gist`}
     />
 
     <Project
         name="twitter-readme-profile"
         description="Your twitter profile in README."
-        url={`${github}twitter-readme-profile`}
+        url={`https://github.com/recalculated/twitter-readme-profile`}
     />
 
     <Project
