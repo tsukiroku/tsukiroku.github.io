@@ -20,7 +20,7 @@
     <Social
         name="YouTube"
         url={`https://www.youtube.com/channel/UCD6IAnWoshkwFcChabKD8gw`}
-        color={theme.socialMail}
+        color={theme.socialYouTube}
     />
     <Social
         name="Mail"
