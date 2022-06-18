@@ -8,6 +8,7 @@ export default {
         projectDescription: '#303030',
         socialGithub: '#2b2b2b',
         socialTwitter: '#0366fc',
+        socialYouTube: '#FF0000',
         socialMail: '#03b1fc',
     },
     dark: {
@@ -19,6 +20,7 @@ export default {
         projectDescription: '#c9c9c9',
         socialGithub: '#cccccc',
         socialTwitter: '#0366fc',
+        socialYouTube: '#FF0000',
         socialMail: '#0081bd',
     },
 }[window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'];
