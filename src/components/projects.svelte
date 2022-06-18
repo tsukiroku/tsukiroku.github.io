@@ -43,6 +43,12 @@
         description="Discord interaction template."
         url={`${github}discord-interaction-template`}
     />
+
+    <Project
+        name="share"
+        description="CLI based, simple file sharing."
+        url={`${github}share`}
+    />
 </div>
 <p class="goto-socials" style="color: {theme.nextText}" on:click={gotoSocials}>
     socials
@@ -66,7 +72,7 @@
         max-width: 240px;
         margin: auto;
         position: relative;
-        top: 115%;
+        top: 130%;
         font-size: 20px;
         cursor: pointer;
         animation: shake 1s infinite both ease-in-out;
