@@ -13,6 +13,11 @@
         color={theme.socialGithub}
     />
     <Social
+        name="Velog"
+        url={`https://velog.io/@rok`}
+        color={theme.socialGithub}
+    />
+    <Social
         name="Twitter"
         url={`https://twitter.com/tsukiroku_t`}
         color={theme.socialTwitter}
