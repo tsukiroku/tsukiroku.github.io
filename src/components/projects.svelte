@@ -63,6 +63,7 @@
     }
 
     .project > .title {
+        text-align: center;
         font-size: 40px;
         font-weight: bold;
     }
@@ -79,8 +80,8 @@
     }
 
     @media (max-width: 640px) {
-        .project {
-            text-align: center;
+        .project { 
+            text-align: right;
             max-width: 240px;
             margin: auto;
             position: relative;

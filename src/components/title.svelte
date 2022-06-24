@@ -25,7 +25,7 @@
         id="title"
         on:click={animation}
     >
-        tsukiroku
+        Kim Jun Young
     </p>
     <p class="description">Student developers in South Korea.</p>
     <p
@@ -47,7 +47,6 @@
     }
 
     div.container > .title {
-        text-transform: uppercase;
         font-size: 70px;
         font-weight: 100;
         animation: bounce 1s 0.2s;

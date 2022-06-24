@@ -44,13 +44,14 @@
     }
 
     .socials > .title {
+        text-align: center;
         font-size: 40px;
         font-weight: bold;
     }
 
     @media (max-width: 640px) {
         .socials {
-            text-align: center;
+            text-align: left;
             max-width: 240px;
             margin: auto;
             position: relative;
