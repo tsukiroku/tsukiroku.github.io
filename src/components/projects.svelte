@@ -49,6 +49,12 @@
         description="CLI based, simple file sharing."
         url={`${github}share`}
     />
+
+    <Project
+        name="tiny"
+        description="Tiny interpreter."
+        url={`${github}tiny`}
+    />
 </div>
 <p class="goto-socials" style="color: {theme.nextText}" on:click={gotoSocials}>
     socials
@@ -73,14 +79,14 @@
         max-width: 240px;
         margin: auto;
         position: relative;
-        top: 130%;
+        top: 150%;
         font-size: 20px;
         cursor: pointer;
         animation: shake 1s infinite both ease-in-out;
     }
 
     @media (max-width: 640px) {
-        .project { 
+        .project {
             text-align: right;
             max-width: 240px;
             margin: auto;

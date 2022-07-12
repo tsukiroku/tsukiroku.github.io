@@ -9,3 +9,5 @@ npm run dev
 
 npm run publish
 ```
+
+I have no design sense, no idea and i'm not good at CSS. thank you.
