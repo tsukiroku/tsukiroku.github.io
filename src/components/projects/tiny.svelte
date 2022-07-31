@@ -1,7 +1,8 @@
 <div
-    class="flex flex-col justify-center h-screen items-center md:items-start md:pl-32 selection:text-stone-400 font-bold"
+    class="flex flex-col justify-center h-screen items-center selection:text-stone-400 font-bold"
+    id="projects"
 >
-    <div class="flex" id="projects">
+    <div class="flex">
         <a href="https://github.com/tsukiroku/tiny"
             ><p
                 class="text-white hover:text-gray-300 text-4xl pb-7 md:text-6xl md:pl-7"
