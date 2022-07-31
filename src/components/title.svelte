@@ -1,10 +1,10 @@
 <script>
-    import Button from './components/titleButton.svelte';
+    import Button from './components/button.svelte';
 </script>
 
-<div class="flex flex-col justify-center items-center h-screen">
+<div class="flex flex-col justify-center items-center h-screen font-bold">
     <div class="flex select-none">
-        <p class="text-white text-5xl md:text-7xl font-bold">Hello</p>
+        <p class="text-white text-5xl md:text-7xl">Hello</p>
         <img
             class="w-14 h-14 md:w-24 md:h-24
                 pb-3 pl-3 md:pb-5 md:pl-5
@@ -14,7 +14,7 @@
         />
     </div>
     <div class="flex select-none">
-        <p class="text-gray-300 text-2xl md:text-3xl font-bold">
+        <p class="text-gray-300 text-2xl md:text-3xl">
             다람쥐 헌 쳇바퀴에 타고파
         </p>
     </div>
