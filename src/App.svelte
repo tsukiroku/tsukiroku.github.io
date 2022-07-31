@@ -1,3 +1,3 @@
-<p>
+<h1 class="text-3xl font-bold underline">
     test
-</p>
+</h1>
