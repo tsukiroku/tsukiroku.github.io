@@ -1,12 +1,10 @@
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
-import App from './app.svelte';
-import themeScheme from './themeScheme';
+import App from './App.svelte';
 
-document.body.style.backgroundColor = themeScheme.background;
-
-export const github = 'https://github.com/tsukiroku/';
-
-export default new App({
-    target: document.body,
+const app = new App({
+	target: document.body,
+	props: {
+		name: 'world'
+	}
 });
+
+export default app;
