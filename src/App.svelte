@@ -8,6 +8,9 @@
     @tailwind utilities;
 
     * {
+        padding: 0;
+        margin: 0;
+        scroll-behavior: smooth;
         background-color: #24292e;
         font-family: 'Noto Sans', sans-serif;
     }
