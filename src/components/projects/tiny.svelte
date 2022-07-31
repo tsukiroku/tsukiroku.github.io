@@ -21,20 +21,22 @@
         >
     </div>
     <div class="flex pb-5 md:pl-7">
-        <p class="text-gray-300 text-xl md:text-2xl">이름 그대로</p>
-        <p class="text-green-400 text-xl md:text-2xl pl-1.5">TINY</p>
         <p class="text-gray-300 text-xl md:text-2xl">
+            이름 그대로
+            <span class="text-green-400 text-xl md:text-2xl pl-1.5">TINY</span>
             한 인터프리터 프로젝트입니다.
         </p>
     </div>
     <div class="flex text-zinc-500 text-xl md:text-2xl md:pl-7">
-        <p class="text-amber-400">CLI & REPL</p>
-        <p class="pr-2">,</p>
-        <a href="https://tsukiroku.github.io/tiny"
-            ><p class="text-orange-400 hover:text-orange-500">
-                웹 Playground
-            </p></a
-        >
-        <p>로 사용해보실 수 있습니다.</p>
+        <p class="pr-2">
+            <span class="text-amber-400">CLI & REPL</span>
+            ,
+            <a href="https://tsukiroku.github.io/tiny"
+                ><span class="text-orange-400 hover:text-orange-500">
+                    웹 Playground
+                </span></a
+            >
+            로 사용해보실 수 있습니다.
+        </p>
     </div>
 </div>

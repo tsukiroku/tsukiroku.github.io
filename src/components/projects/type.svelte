@@ -12,13 +12,15 @@
         >
     </div>
     <div class="flex pb-5 md:pr-7">
-        <p class="text-green-400 text-xl md:text-2xl">타입스크립트</p>
         <p class="text-gray-300 text-xl md:text-2xl pl-1.5">
+            <span class="text-green-400 text-xl md:text-2xl">
+                타입스크립트
+            </span>
             의 타입 시스템을 이용한
+            <span class="text-green-400 text-xl md:text-2xl pl-1.5">
+                타입 레벨 (Type Level)
+            </span>
+            프로젝트입니다.
         </p>
-        <p class="text-green-400 text-xl md:text-2xl pl-1.5">
-            타입 레벨 (Type Level)
-        </p>
-        <p class="text-gray-300 text-xl md:text-2xl pl-1.5">프로젝트입니다.</p>
     </div>
 </div>
